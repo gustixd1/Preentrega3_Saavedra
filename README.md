@@ -1,6 +1,6 @@
 <h1>Tercera pre-entrega Gustavo Saavedra</h1>
 <h2>Explicación</h2>
-Esta entrega fue construida con python 3.12.0 y Django 5.0
+<h2>Esta entrega fue construida con python 3.12.0 y Django 5.0</h2>
 1. Ubicarse en la carpeta del proyecto "Preentrega3" y ejecutar el script "python.exe manage.py runserver"
 2. Al abrir el link se encontrará con el inicio de la página (El template del inicio se encuentra en la app "Home" junto con el template padre).
 3. Al hacer click en el apartado "Gatos" en la esquina superior derecha se le redirigirá a la url de gatos en la cual podrá registrar su gato ingresando nombre, raza y fecha de nacimiento. Cuando haya llenado todos los datos aprete "Registrar gato", esto lo redireccionará al inicio mostrando un mensaje avisando que el registro se realizó correctamente.
