@@ -1,0 +1,33 @@
+{% extends "Home/padre.html" %}
+{% load static %}
+{% block division %}
+<title>Mascotas - MascotasBlog</title>
+        <!-- Page Header-->
+        <header class="masthead" style="background-image: url('https://ramenparados.com/wp-content/uploads/2019/03/Roommate-Cat-01.jpg')">
+            <div class="container position-relative px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <div class="page-heading">
+                            <h1>Mascotas</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Main Content-->
+        <main class="mb-4">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <form action="" method="POST">
+                            {% csrf_token %}
+                            <table>
+                                {{form.as_table}}
+                            </table>
+                            <button type="submit" class="btn btn-outline-dark">Registrar mascota</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </main>
+{% endblock %}
