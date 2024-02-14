@@ -4,6 +4,3 @@ from django.http import HttpResponse
 # Create your views here.
 def inicio(request):
     return render(request, "Home/index.html")
-
-def sobreMi(request):
-    return render(request, "Home/about.html")
